@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ExamPreparations.Master.cs" Inherits="ExamPreparations.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        
+        .auto-style5 {
+            background-color: cadetblue;
+            align-content: center;
+            text-align: center;
+        }
+        
+        .auto-style6 {
+            text-align: center;
+            width: 211px;
+            background-color: gainsboro;
+            height: 28px;
+        }
+        .auto-style7 {
+            text-align: center;
+            width: 234px;
+            height: 28px;
+        }
+        .auto-style8 {
+            text-align: right;
+            height: 28px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table class="auto-style1" >
+        <tr>
+            <td colspan="3" class="auto-style5" style="color:midnightblue"><h1> Exam-Preparations </h1></td>
+        </tr>
+        <tr class ="bg" >
+            <td class="auto-style6">
+                <a href="Home.aspx" class="abc">HOME</a>
+            </td>
+            <td class="auto-style7">
+                <a href="Registration.aspx" class="abc">Registration</a>
+            </td>
+            <td class="auto-style8">
+                <a href="Login.aspx" class="abc">Login</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+               
+
+
+            </td>
+        </tr>
+        <tr class ="bg" >
+            <td class="auto-style2">
+                <a href="Home.aspx" class="abc">HOME</a>
+            </td>
+            <td class="auto-style3">
+                <a href="Registration.aspx" class="abc">Registration</a>
+            </td>
+            <td class="auto-style4">
+                <a href="Login.aspx" class="abc">Login</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="3"><p class="p"> &copy; Heena Sood - 07-April-2019</p></td>
+        </tr>
+    </table>
+     </form>
+</body>
+</html>
